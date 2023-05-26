@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eef;
+    font-family: Rubik, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu__icon {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu__icon span {
+    width: 6px;
+    height: 6px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.container {
+    width: 920px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 5em 6em;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Book */
+.book {
+    width: 20em;
+    height: 31.25em;
+    margin-top: -3em;
+    position: relative;
+    transform: perspective(60em) rotateX(48deg) rotateZ(-30deg) skewY(-5deg);
+    box-shadow: -1.4em 1.6em 0.3em -0.3em rgba(0, 0, 0, 0.8), -1.6em 1.7em 0.9em -0.2em rgba(0, 0, 0, 0.5), 0.3em 1.8em 1.3em rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 0.4em;
+    transition: transform 300ms ease;
+}
+.book:hover {
+    transform: rotateX(0deg) rotateZ(0deg) skewY(0deg);
+}
+
+.book img {
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    box-sizing: border-box;
+    width: 100%;
+    clip: rect(0em, 20em, 31.375em, 0em);
+    display: block;
+    position: absolute;
+    filter: saturate(90%);
+}
+
+.book:before,
+.book:after {
+    content: "";
+    position: absolute;
+    top: 0;
+}
+
+.book:before {
+    width: 105%;
+    height: 105%;
+    left: -5%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(110deg, transparent 2.8%, #0a0a0a 3%, #111 16%, transparent 16%), linear-gradient(119deg, transparent 10%, #0a0a0a 10%, #111 17%, #222 46.8%, transparent 47%), linear-gradient(119deg, transparent 46%, rgba(0, 0, 0, 0.125) 46.5%, rgba(0, 0, 0, 0.125) 49%, transparent 53%), linear-gradient(to right, #fff, #fff), linear-gradient(#0a0a0a, #3f3f3f), linear-gradient(138deg, transparent 45%, #fff 45%, #eef 96.8%, transparent 97%);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 0.4em, 94% 0.2em, 100% 100%;
+    background-position: 0 0, 0 0, 0 0, 0 95.8%, 0 100%, 0 0;
+    border-radius: 2px;
+}
+.book:after {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, transparent 4%, rgba(220, 220, 220, 0.05) 4%, rgba(220, 220, 220, 0.1) 5%, transparent 6%), linear-gradient(-50deg, rgba(0, 0, 0, 0.1) 10%, transparent 100%), linear-gradient(-50deg, rgba(0, 0, 0, 0.2) 10%, transparent 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 10%, transparent 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 10%, transparent 100%);
+    background-size: 100% 100%, 2% 20%, 1% 20%, 2% 20%, 1% 20%;
+    background-position: 0 0, 2.2% 100%, 3% 100%, 2.2% 0, 3% 0;
+}

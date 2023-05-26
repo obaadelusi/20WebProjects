@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+    --border-color: #a4bef3;
+    --bg-color: #e9f1f7;
+    --text-color: #0f166c;
+    --dark-accent: #1e2ede;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: var(--dark-accent);
+    margin: 20px 0 0 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.draggable-list {
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 0;
+    list-style-type: none;
+}
+
+.draggable-list li {
+    background-color: white;
+    display: flex;
+    flex: 1;
+}
+
+.draggable-list li:not(:last-of-type) {
+    border-bottom: 2px solid var(--border-color);
+}
+
+.draggable-list .number {
+    background-color: var(--bg-color);
+    color: #0b4f6c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+}
+
+.draggable-list .person-name {
+    margin: 0 20px 0 0;
+}
+
+.draggable-list .right .person-name {
+    color: #80bf22;
+}
+
+.draggable-list .wrong .person-name {
+    color: #ec4657;
+}
+
+.draggable-list li.over .draggable {
+    background-color: var(--bg-color);
+}
+
+.draggable {
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex: 1;
+}
+
+.check-btn {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 1em 2em;
+    color: white;
+    background-color: var(--dark-accent);
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+.check-btn:hover {
+    background-color: var(--text-color);
+}
+
+.check-btn:active {
+    transform: scale(0.98);
+}

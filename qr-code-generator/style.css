@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #f1faee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: #555;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    max-width: 480px;
+    background-color: #fff;
+    padding: 2em;
+    border: 1px solid #457b9d;
+    border-radius: 0.5em;
+    height: 290px;
+    transition: height 200ms ease;
+}
+.wrapper.active {
+    height: 540px;
+}
+
+header h1 {
+    margin-bottom: 0.25em;
+}
+
+.form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form input {
+    appearance: none;
+    padding: 0.75em 1em;
+    font: inherit;
+    font-size: 1rem;
+    border-radius: 0.25em;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.form input::placeholder {
+    color: #ccc;
+}
+.form input:hover,
+.form input:focus {
+    border-color: #a8dadc;
+}
+
+.form button {
+    appearance: none;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #1d3557;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875em 0.75em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: background-color 200ms ease-out;
+}
+.form button:hover {
+    background-color: #457b9d;
+}
+
+.qr-code-wrapper {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper.active .qr-code-wrapper {
+    border-top: 3px solid #457b9d;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 2em 2em 1em;
+    margin-top: 2em;
+    position: relative;
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 300ms ease;
+}
+
+.qr-code-wrapper::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #457b9d;
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+    position: absolute;
+    top: -1px;
+}
+
+.qr-code-wrapper img {
+    max-width: 200px;
+}

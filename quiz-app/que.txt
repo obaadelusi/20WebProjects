@@ -1,0 +1,51 @@
+
+    Q1: Which African country was formerly known as Abyssinia?
+    A: Ethiopia 
+    B: Nigeria 
+    C: Congo 
+    D: Zimbabwe
+
+    Q2: What is the loudest animal on Earth?
+    A: Sperm whale
+
+    Q3: Who was the first female Prime Minister of Great Britain?
+    A: Margaret Thatcher
+
+    Q4: What color eyes do most humans have?
+    A: Brown . B: Black . C: Grey . D: Blue
+
+    Q5: What is the name of the Earth’s largest ocean?
+    A: Atlantic Ocean 
+    B: The Pacific Ocean 
+    C: Indian Ocean 
+    D: Amazon Ocean
+
+    Q6: What is the smallest country in the world?
+    A: Syria
+    B: United Arab Emirates
+    C: Vatican City
+    D: Madagascar
+
+    Q7: Which bone are babies born without?
+    A: Nose bone
+    B: Finger bone
+    C: Knee cap
+    D: Nose bone
+
+    Q8: What is the hardest rock?
+    A: Sedimentary 
+    B: Igneous 
+    C: Diamond
+    D: Pearl
+
+    Q9: Which chess piece can move only one step in any direction
+    A: Pawn
+    B: Bishop
+    C: Knight
+    D: King
+
+    Q10: What is West Africa's largest city?
+    A: Lagos
+    B: Ibadan
+    C: Cairo
+    D: Accra

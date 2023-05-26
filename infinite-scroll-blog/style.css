@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e0fbfc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: Jost, sans-serif;
+    line-height: 1.2;
+    color: #ee6c4d;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+p {
+    color: #293241;
+    line-height: 1.4;
+    font-size: 1.0625rem;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 5em 0 5em 0;
+    background: #293241;
+}
+
+/* Filter Input Section */
+.filter-container {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.filter-container input {
+    padding: 1em 1em;
+    width: 80vw;
+    max-width: 600px;
+    font-size: 1rem;
+    border: 1px solid #3d5a80;
+    border-radius: 5px;
+}
+
+/* Posts Section */
+#posts-container {
+    padding: 1em 2em;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.post {
+    position: relative;
+    background-color: #fff;
+    width: 80vw;
+    max-width: 800px;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 #00000033;
+}
+
+.post .post-title {
+    margin-bottom: 5px;
+}
+
+.post .post-number {
+    position: absolute;
+    font-size: 1.5rem;
+    top: -20px;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #3d5a80;
+    color: #fff;
+    text-align: center;
+    line-height: 2.2;
+    border-radius: 50%;
+}
+
+/* Loading Animation */
+.loader {
+    opacity: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    bottom: 50px;
+    width: 100%;
+    transition: opacity 0.3s ease-in;
+}
+
+.loader.show {
+    opacity: 1;
+}
+
+.loader .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3d5a80;
+    margin: 5px;
+    animation: bounce 500ms ease-in infinite;
+}
+
+.loader .circle:nth-of-type(2) {
+    animation-delay: 100ms;
+}
+
+.loader .circle:nth-of-type(3) {
+    animation-delay: 200ms;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

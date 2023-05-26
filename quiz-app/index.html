@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Quiz</title>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <div class="container">
+      <button class="start-btn" id="start-btn">Start Quiz</button>
+
+      <!-- Rules Box -->
+      <div class="rules" id="rule-box">
+         <h2>Rules of This Quiz</h2>
+         <ol>
+            <li>
+               You will have only
+               <span>20 seconds</span>
+               per question.
+            </li>
+            <li>Once you select your answer, it can't be undone.</li>
+            <li>You can't select any option once time goes off.</li>
+            <li>You can't exit from the quiz while you're playing.</li>
+            <li>
+               You will get points on the basis of your correct answers.
+            </li>
+         </ol>
+         <div class="buttons">
+            <button class="exit-btn">Exit Quiz</button>
+            <button class="continue-btn">Continue</button>
+         </div>
+      </div>
+   </div>
+
+   <!-- Quiz Box -->
+   <div class="quiz-box">
+      <!-- Quiz Box Header -->
+      <header>
+         <h2>Quiz Application</h2>
+         <div class="timer">
+            <div class="time-text">Time Left</div>
+            <div class="time-sec">20</div>
+         </div>
+      </header>
+
+      <!-- Quiz Box Question and Answer -->
+      <section>
+         <p class="question">
+            <!-- Which African country was formerly known as Abyssinia? -->
+         </p>
+         <div class="option-list">
+            <!-- <div class="option">
+                        <p>Nigeria</p>
+                        <i class="fa fa-times icon"></i>
+                    </div>
+                    <div class="option">
+                        <p>Ethiopia</p>
+                        <i class="fa fa-check icon"></i>
+                    </div>
+                    <div class="option">
+                        <p>Congo</p>
+                    </div>
+                    <div class="option">
+                        <p>Zimbabwe</p>
+                    </div> -->
+         </div>
+      </section>
+
+      <!-- Quiz Box Footer -->
+      <footer>
+         <div class="total-que">
+            <!-- <div><span>2</span> of <span>5</span> questions</div> -->
+         </div>
+         <button class="next-btn">Next question</button>
+      </footer>
+   </div>
+
+   <!-- Result Box -->
+   <div class="result-box">
+      <div class="icon">
+         <i class="fa fa-crown"></i>
+      </div>
+      <div class="complete-text">You have completed the Quiz!</div>
+      <div class="score-text">
+         You got <span>5</span> out of <span>10</span>
+      </div>
+      <div class="buttons">
+         <button class="replay-btn">Replay Quiz</button>
+         <button class="quit-btn">Quit</button>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+   <script defer src="questions.js"></script>
+</body>
+
+</html>
