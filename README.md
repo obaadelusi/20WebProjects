@@ -1,17 +1,18 @@
 # 20WebProjects
-20 Web Projects with HTML, CSS, and JavaScript.
 
-1. Book cover [`Demo`](https://whatobathinks.com)
-2. Exchange rate calculator [`Demo`](https://whatobathinks.com)
-3. Form validator [`Demo`](https://whatobathinks.com)
-4. Infinite scroll blog [`Demo`](https://whatobathinks.com)
-5. Meal finder [`Demo`](https://whatobathinks.com)
-6. Movie seat booking [`Demo`](https://whatobathinks.com)
-7. Music search [`Demo`](https://whatobathinks.com)
-8. New year countdown [`Demo`](https://whatobathinks.com)
-9. QR code generator [`Demo`](https://whatobathinks.com)
-10. Relaxing app [`Demo`](https://whatobathinks.com)
-11. Sortable list [`Demo`](https://whatobathinks.com)
+20 Web Projects with HTML, CSS, JavaScript, and APIs.
+
+1. Book cover [`Demo`](https://obaadelusi.github.io/20WebProjects/book-cover/)
+2. Exchange rate calculator [`Demo`](https://obaadelusi.github.io/20WebProjects/exchange-rate-calculator/)
+3. Form validator [`Demo`](https://obaadelusi.github.io/20WebProjects/)
+4. Infinite scroll blog [`Demo`](https://obaadelusi.github.io/20WebProjects/infinite-scroll-blog/)
+5. Meal finder [`Demo`](https://obaadelusi.github.io/20WebProjects/meal-finder/)
+6. Movie seat booking [`Demo`](https://obaadelusi.github.io/20WebProjects/movie-seat-booking/)
+7. Music search [`Demo`](https://obaadelusi.github.io/20WebProjects/music-search/)
+8. New year countdown [`Demo`](https://obaadelusi.github.io/20WebProjects/new-year-countdown/)
+9. QR code generator [`Demo`](https://obaadelusi.github.io/20WebProjects/qr-code-generator/)
+10. Relaxing app [`Demo`](https://obaadelusi.github.io/20WebProjects/relaxing-app/)
+11. Sortable list [`Demo`](https://obaadelusi.github.io/20WebProjects/sortable-list/)
 12. Quiz app `...in progress`
 
-&copy; 2020
+&copy; Oba Adelusi
