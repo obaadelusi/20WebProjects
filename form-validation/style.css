@@ -29,6 +29,12 @@ body {
     min-height: 100vh;
 }
 
+.back-link {
+    position: absolute;
+    top: 5em;
+    left: 2em;
+}
+
 .container {
     background-color: white;
     border-radius: 5px;

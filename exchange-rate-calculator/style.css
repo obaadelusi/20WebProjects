@@ -27,6 +27,12 @@ button {
     font-family: inherit;
 }
 
+.back-link {
+    position: absolute;
+    top: 5em;
+    left: 2em;
+}
+
 .container {
     display: flex;
     flex-direction: column;

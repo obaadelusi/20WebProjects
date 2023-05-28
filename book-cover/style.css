@@ -13,6 +13,7 @@
 body {
     background-color: #eef;
     font-family: Rubik, sans-serif;
+    position: relative;
 }
 
 nav {
@@ -37,6 +38,12 @@ nav {
     border-radius: 50%;
 }
 
+.back-link {
+    position: absolute;
+    top: 5em;
+    left: 2em;
+}
+
 .container {
     width: 920px;
     display: grid;
@@ -46,6 +53,13 @@ nav {
     gap: 5em 6em;
     margin: 0 auto;
     padding: 5em 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
 }
 
 img {

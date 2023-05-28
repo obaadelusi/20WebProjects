@@ -16,6 +16,17 @@ body {
     background-color: #e0fbfc;
 }
 
+.back-link {
+    background-color: white;
+    border-radius: 0.5em;
+    font-size: small;
+    opacity: 0.5;
+    padding: 0.5em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
 .container {
     display: flex;
     flex-direction: column;

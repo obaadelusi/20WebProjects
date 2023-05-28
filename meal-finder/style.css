@@ -20,6 +20,15 @@ img {
     border-radius: 3px;
 }
 
+.back-link {
+    background-color: white;
+    border-radius: 0.5em;
+    font-size: 14px;
+    margin-top: 2em;
+    opacity: 0.5;
+    padding: 0.5em;
+}
+
 .container {
     margin: auto;
     max-width: 800px;

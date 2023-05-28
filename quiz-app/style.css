@@ -49,6 +49,21 @@ button:hover {
     background: var(--blue-100);
 }
 
+/* Back link */
+.back-link {
+    position: absolute;
+    border-radius: 0.5em;
+    font-size: small;
+    opacity: 0.7;
+    padding: 0.5em;
+    top: 2em;
+    left: 2em;
+}
+
+.back-link a {
+    color: whitesmoke;
+}
+
 .container {
     position: absolute;
     /* top: 50%; */

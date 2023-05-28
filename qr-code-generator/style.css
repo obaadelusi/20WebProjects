@@ -20,6 +20,17 @@ body {
     align-items: center;
 }
 
+/* Back link */
+.back-link {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.5em;
+    font-size: small;
+    padding: 0.5em;
+    top: 2em;
+    left: 2em;
+}
+
 img {
     display: block;
     max-width: 100%;

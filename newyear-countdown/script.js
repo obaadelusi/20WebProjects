@@ -9,6 +9,8 @@ const loading = document.querySelector("#loading");
 const currentYear = new Date().getFullYear();
 // console.log(currentYear);
 
+year.innerHTML = currentYear + 1;
+
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 
 //To update the countdown
@@ -22,7 +24,6 @@ function updateCountdown() {
     const s = Math.floor(diff / 1000) % 60;
 
     //Update date values in DOM
-    year.innerHTML = currentYear + 1;
     days.innerHTML = d;
     hours.innerHTML = h < 10 ? "0" + h : h;
     minutes.innerHTML = m < 10 ? "0" + m : m;
