@@ -4,7 +4,7 @@
 
 1. Book cover [`Demo`](https://obaadelusi.github.io/20WebProjects/book-cover/)
 2. Exchange rate calculator [`Demo`](https://obaadelusi.github.io/20WebProjects/exchange-rate-calculator/)
-3. Form validator [`Demo`](https://obaadelusi.github.io/20WebProjects/form-validator)
+3. Form validator [`Demo`](https://obaadelusi.github.io/20WebProjects/form-validation)
 4. Infinite scroll blog [`Demo`](https://obaadelusi.github.io/20WebProjects/infinite-scroll-blog/)
 5. Meal finder [`Demo`](https://obaadelusi.github.io/20WebProjects/meal-finder/)
 6. Movie seat booking [`Demo`](https://obaadelusi.github.io/20WebProjects/movie-seat-booking/)
