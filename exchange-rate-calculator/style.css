@@ -95,6 +95,11 @@ select {
     border-radius: 5px;
 }
 
+input#amount-one {
+    background: white;
+    border: 1px solid lightgrey;
+}
+
 .currency input:focus {
     background: white;
 }
